@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <!-- custom js file link  -->
+   <script src="js/script.js" defer></script>
+
+</head>
+<body>
+       <!--Add to Card-->
+       <div id="carticon">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cart-item-count"></span>
+       </div>
+        <div class="cart">
+          <h2 class="cart-tittle">Your Cart</h2>
+          <div class="cart-content">
+            <!-- <div class="cart-box">
+                <img src="images/1.png" class="cart-img">
+                <div class="cart-detail">
+                    <h2 class="cart-product-tittle">Miss Diro Perfume</h2>
+                    <span class="cart-price">Rs.52,377</span>
+                    <div class="cart-quantity">
+                        <button id="decrement">-</button>
+                        <span class="number">1</span>
+                        <button id="increment">+</button>
+                    </div>
+                </div>
+                <i class="fa-solid fa-trash cart-remove"></i>
+             </div> -->
+        </div>
+          <div class="total">
+            <div class="total-tittle">Total</div>
+            <div class="total-price">Rs 0</div>
+          </div>
+          <button class="btn-buy">Buy Now</button>
+          <i class="fa-solid fa-xmark" id="cart-close"></i>
+        </div>
+          <!--Nav Bar-->
+<div class="container">
+   <h3 class="title">Dior</h3>
+   <h4 class="tagline">Miss Dior</h4>
+   <img src="images/fragnace1.png" alt="" style="margin-left:-90px ;
+   width: 88pc;">
+   <section class="hero">
+    <div class="hero-content">
+        <p>In 1947, Miss Dior was born from this wild impulse, this imperative desire to enchant women's lives, to let them see the <br> vibrant colors of love again. Rose de Grasse, Lily of the Valley, and Jasmine combine to form unforgettable floral  <br> bouquets. Flowers as a promise of happiness.</p>
+    </div>
+</section>
+
+<!-- Categories Section -->
+<section class="categories">
+    <div class="category">
+        <img src="images/1.png" alt="Fragrances">
+        <p>Fragrances</p>
+    </div>
+    <div class="category">
+        <img src="images/travel.jpg" alt="Travel Fragrances">
+        <p>Travel Fragrances</p>
+    </div>
+    <div class="category">
+        <img src="images/bath & body.webp" alt="Bath & Body">
+        <p>Bath & Body</p>
+    </div>
+    <div class="category">
+        <img src="images/exceptional.jpg" alt="Exceptional Pieces">
+        <p>Exceptional Pieces</p>
+    </div>
+    <div class="category">
+        <img src="images/original.jpg" alt="Miss Dior Original">
+        <p>Miss Dior Original</p>
+    </div>
+</section>
+           <!--Fragrance Cart-->
+      <h3 class="tagline1">Fragrances</h3>
+   <div class="products-container">
+      <div class="product" data-name="p-1">
+         <img class="img" src="images/1.png" alt="">
+         <h3>Miss Dior Perfume</h3>
+         <div class="price">Rs.52,377</div>
+      </div>
+
+      <div class="product" data-name="p-2">
+         <img src="images/2.png" alt="">
+         <h3>Miss Dior Rose N'Roses</h3>
+         <div class="price">Rs.56,907</div>
+      </div>
+
+      <div class="product" data-name="p-3">
+         <img src="images/3.png" alt="" style="align-items: center; margin-left: -100px;">
+         <h3>Personalizable Miss Dior Eau de Parfum</h3>
+         <div class="price">Rs.52,780</div>
+      </div>
+</div>
+   <!-- Travel Fragrance Cart-->
+   <h3 class="tagline1">Travel Fragrance</h3>
+   <img src="images/travel logo.jpg" alt="" style="margin-left:-90px ;
+   width: 88pc;">
+   <div class="products-container">
+      <div class="product" data-name="p-4">
+         <img class="img" src="images/4.png" alt="">
+         <h3>Limited-Edition Miss Dior Mini Miss Case</h3>
+         <div class="price">Rs.22,40</div>
+      </div>
+
+      <div class="product" data-name="p-5">
+         <img src="images/5.png" alt="" style="align-items: center; margin-left: -100px;">
+         <h3>Miss Dior Parfum Mini Miss Solid Perfume</h3>
+         <div class="price">Rs.35,900</div>
+      </div>
+
+      <div class="product" data-name="p-6">
+         <img src="images/6.png" alt="">
+         <h3>Miss Dior Mini Miss Tiro</h3>
+         <div class="price">29,980</div>
+        </div>
+</div>   
+         <!--  Bath and Body Cart-->
+<h3 class="tagline1">Bath & Body</h3>
+<div class="products-container">
+   <div class="product" data-name="p-4">
+      <img class="img" src="images/7.png" alt="">
+      <h3>Limited-Edition Miss Dior Mini Miss Case</h3>
+      <div class="price">Rs.22,40</div>
+   </div>
+
+   <div class="product" data-name="p-5">
+      <img src="images/8.png" alt="" style="align-items: center; margin-left: -100px;">
+      <h3>Miss Dior Parfum Mini Miss Solid Perfume</h3>
+      <div class="price">Rs.35,900</div>
+   </div>
+
+   <div class="product" data-name="p-6">
+      <img src="images/9.png" alt="">
+      <h3>Miss Dior Mini Miss Tiro</h3>
+      <div class="price">29,980</div>
+     </div>
+</div>
+         <!--Product detail -->
+<div class="products-preview">
+   <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <img src="images/1withbox.png" alt="">
+      <h3>Miss Dior Perfume</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Eau de Toilette - Floral and Sparkling Notes</p>
+      <div class="price">Rs. 52,337</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="images/2.png" alt="">
+      <h3>Miss Dior Rose N'Roses</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Eau de Toilette - Floral and Sparkling Notes</p>
+      <div class="price">Rs. 56,907</div>
+      <div class="buttons">
+        <a href="#" class="buy">Add to Cart</a>
+    </div>
+   </div>
+
+   <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="images/3.png" alt="">
+      <h3>Personalizable Miss Dior Eau de Parfum</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Eau de Toilette - Floral and Sparkling Notes</p>
+      <div class="price">Rs. 52,780</div>
+      <div class="buttons">
+         <a href="#" class="buy">Add to Cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="images/4.png" alt="">
+      <h3>Limited-Edition Miss Dior Mini Miss Case</h3>
+            <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Solid Perfume Couture Case</p>
+      <div class="price">Rs.22,40</div>
+      <div class="buttons">
+         <a href="#" class="buy">Add to Cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <img src="images/5.png" alt="">
+      <h3>Miss Dior Parfum Mini Miss Solid Perfume</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Solid Perfume Couture Case</p>
+      <div class="price">Rs.35,900</div>
+      <div class="buttons">
+         <a href="#" class="buy">Add to Cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-6">
+      <i class="fas fa-times"></i>
+      <img src="images/6.png" alt="">
+      <h3>Miss Dior Mini Miss Tiro</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Solid Perfume</p>
+      <div class="price">29,980</div>
+      <div class="buttons">
+         <a href="#" class="buy">Add to Cart</a>
+      </div>
+    </div>
+</div>
+</body>
+</html>

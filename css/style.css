@@ -410,11 +410,15 @@ margin-right:20px;
    margin-top: 10px;
    font-family: Georgia, serif;
 }
+.expcetion{
+display: flex;
+margin-left: -55px;
 
-
-
-
-
+}
+.expcetion img{
+   height:500px;
+   margin:3px;
+}
 @media (max-width:991px){
 
    html{
